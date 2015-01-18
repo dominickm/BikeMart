@@ -15,6 +15,7 @@
 		4C5244111A6B487200B97575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5244101A6B487200B97575 /* Images.xcassets */; };
 		4C5244141A6B487200B97575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5244121A6B487200B97575 /* LaunchScreen.xib */; };
 		4C5244201A6B487200B97575 /* BikeMartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52441F1A6B487200B97575 /* BikeMartTests.m */; };
+		4C52442C1A6B4A3700B97575 /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52442B1A6B4A3700B97575 /* Bike.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4C5244191A6B487200B97575 /* BikeMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C52441E1A6B487200B97575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C52441F1A6B487200B97575 /* BikeMartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeMartTests.m; sourceTree = "<group>"; };
+		4C52442A1A6B4A3700B97575 /* Bike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bike.h; sourceTree = "<group>"; };
+		4C52442B1A6B4A3700B97575 /* Bike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bike.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		4C5243FF1A6B487200B97575 /* BikeMart */ = {
 			isa = PBXGroup;
 			children = (
+				4C5244291A6B4A2800B97575 /* Models */,
 				4C5244041A6B487200B97575 /* AppDelegate.h */,
 				4C5244051A6B487200B97575 /* AppDelegate.m */,
 				4C5244071A6B487200B97575 /* MasterViewController.h */,
@@ -122,6 +126,15 @@
 				4C52441E1A6B487200B97575 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5244291A6B4A2800B97575 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C52442A1A6B4A3700B97575 /* Bike.h */,
+				4C52442B1A6B4A3700B97575 /* Bike.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C52442C1A6B4A3700B97575 /* Bike.m in Sources */,
 				4C5244061A6B487200B97575 /* AppDelegate.m in Sources */,
 				4C5244091A6B487200B97575 /* MasterViewController.m in Sources */,
 				4C5244031A6B487200B97575 /* main.m in Sources */,
