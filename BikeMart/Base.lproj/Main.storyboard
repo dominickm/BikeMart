@@ -71,6 +71,8 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Checkout" id="mOI-FS-AaM"/>
                     <connections>
+                        <outlet property="blurbView" destination="r7C-RV-7T3" id="aqi-KT-4zJ"/>
+                        <outlet property="imageView" destination="IFp-dN-q1f" id="n4H-vd-fIG"/>
                         <outlet property="priceLabel" destination="NCb-Rv-8jr" id="vUP-NH-OcR"/>
                         <outlet property="titleLabel" destination="gxk-ag-oIW" id="EHS-dj-42P"/>
                     </connections>

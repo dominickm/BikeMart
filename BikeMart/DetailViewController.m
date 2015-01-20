@@ -13,6 +13,8 @@
 
 @property (nonatomic, weak) IBOutlet UILabel* titleLabel;
 @property (nonatomic, weak) IBOutlet UILabel* priceLabel;
+@property (nonatomic, weak) IBOutlet UIImageView* imageView;
+@property (nonatomic, weak) IBOutlet UITextView* blurbView;
 
 @end
 
@@ -39,6 +41,8 @@
         self.detailDescriptionLabel.text = [self.detailItem blurb];
         [_priceLabel setText:_detailItem.price.stringValue];
         [_titleLabel setText:_detailItem.name];
+        [_imageView setImage:_detailItem.image];
+        [_blurbView setText:_detailItem.blurb];
     }
 }
 
