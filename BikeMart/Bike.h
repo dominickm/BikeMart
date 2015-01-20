@@ -16,4 +16,6 @@
 @property (nonatomic) NSNumber* price;
 @property (nonatomic) UIImage* image;
 
++ (NSArray *)sampleBikes;
+
 @end
