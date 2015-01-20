@@ -7,8 +7,12 @@
 //
 
 #import "DetailViewController.h"
+#import "Bike.h"
 
 @interface DetailViewController ()
+
+@property (nonatomic, weak) IBOutlet UILabel* titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel* priceLabel;
 
 @end
 
@@ -32,7 +36,9 @@
     // Update the user interface for the detail item.
     if (self.detailItem)
     {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.detailDescriptionLabel.text = [self.detailItem blurb];
+        [_priceLabel setText:_detailItem.price.stringValue];
+        [_titleLabel setText:_detailItem.name];
     }
 }
 
