@@ -20,18 +20,21 @@
     b1.name = @"Tiger";
     b1.price = [NSNumber numberWithFloat:150.00];
     b1.blurb = @"ROAR!";
+    b1.image = [UIImage imageNamed:@"tiger.jpg"];
     [tempArray addObject:b1];
     
     Bike* b2 = [[Bike alloc] init];
     b2.name = @"Leopard";
     b2.price = [NSNumber numberWithFloat:120];
     b2.blurb = @"The best print for your wild life-tsyle";
+    b2.image = [UIImage imageNamed:@"leopard.jpg"];
     [tempArray addObject:b2];
     
     Bike* b3 = [[Bike alloc] init];
     b3.name = @"Snow Leopard";
     b3.price = [NSNumber numberWithFloat:100];
     b3.blurb = @"This is the height of all bike tecnhnology. Let's just stop here.";
+    b3.image = [UIImage imageNamed:@"snowleopard.jpeg"];
     [tempArray addObject:b3];
     
     return [NSArray arrayWithArray:tempArray];

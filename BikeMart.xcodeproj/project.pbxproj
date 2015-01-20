@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C12DCD01A6E17D00087F3AE /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C12DCCF1A6E17D00087F3AE /* tiger.jpg */; };
+		4C12DCD21A6E18130087F3AE /* leopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C12DCD11A6E18130087F3AE /* leopard.jpg */; };
+		4C12DCD41A6E184F0087F3AE /* snowleopard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C12DCD31A6E184F0087F3AE /* snowleopard.jpeg */; };
 		4C5244031A6B487200B97575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5244021A6B487200B97575 /* main.m */; };
 		4C5244061A6B487200B97575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5244051A6B487200B97575 /* AppDelegate.m */; };
 		4C5244091A6B487200B97575 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5244081A6B487200B97575 /* MasterViewController.m */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		1523553BCF71AD30A0AF7202 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		28B065722DB33C85FF14EFCA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4C12DCCF1A6E17D00087F3AE /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		4C12DCD11A6E18130087F3AE /* leopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leopard.jpg; sourceTree = "<group>"; };
+		4C12DCD31A6E184F0087F3AE /* snowleopard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snowleopard.jpeg; sourceTree = "<group>"; };
 		4C5243FD1A6B487200B97575 /* BikeMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5244011A6B487200B97575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C5244021A6B487200B97575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 		4C5244001A6B487200B97575 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C12DCD31A6E184F0087F3AE /* snowleopard.jpeg */,
+				4C12DCD11A6E18130087F3AE /* leopard.jpg */,
+				4C12DCCF1A6E17D00087F3AE /* tiger.jpg */,
 				4C5244011A6B487200B97575 /* Info.plist */,
 				4C5244021A6B487200B97575 /* main.m */,
 			);
@@ -199,7 +208,10 @@
 			files = (
 				4C52440F1A6B487200B97575 /* Main.storyboard in Resources */,
 				4C5244141A6B487200B97575 /* LaunchScreen.xib in Resources */,
+				4C12DCD21A6E18130087F3AE /* leopard.jpg in Resources */,
 				4C5244111A6B487200B97575 /* Images.xcassets in Resources */,
+				4C12DCD41A6E184F0087F3AE /* snowleopard.jpeg in Resources */,
+				4C12DCD01A6E17D00087F3AE /* tiger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
